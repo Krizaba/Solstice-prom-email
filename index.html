@@ -31,43 +31,40 @@
         }
     </style>
     <style>
+        hr {
+            border: 10px solid rgb(91, 192, 255);
+            border-radius: 5px;
+        }
+        
         td .logo img {
             display: block;
             margin-left: auto;
             margin-right: auto;
             width: 30%;
         }
-        /* .logo h1 {
-            margin: 0;
-            padding-bottom: 10px;
-        }
-        
-        .logo h1 a {
-            color: #000000;
-            font-size: 30px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 5px;
-            font-family: 'Lato', sans-serif;
-            border: none;
-            padding: .2em 1em;
-        }
         
         .btn-shoping h1 a {
             color: #000000;
-            font-size: 20px;
+            font-size: 30px;
             font-weight: 700;
             font-family: 'Lato', sans-serif;
-            border: 2px solid #000;
-            padding: .2em 1em .4em;
-        } */
+            background: #fff98b;
+            border: 4px solid #fef31f;
+            border-radius: 15px;
+            padding: 0.2em 1em .4em;
+        }
+        
+        .btn-shoping h1 a:hover {
+            transition: 1s;
+            background: #900b42;
+            border: #900b42;
+            color: #fff;
+        }
         
         .navigation {
+            border: 1px solid rgb(72, 72, 72);
             padding: 0;
             padding: 1em 0;
-            /*background: rgba(0,0,0,1);*/
-            border-top: 1px solid rgba(0, 0, 0, 0.250);
-            border-bottom: 1px solid rgba(0, 0, 0, 0.250);
         }
         
         .navigation li {
@@ -88,15 +85,13 @@
         .welcome h4 {
             text-align: center;
             font-weight: 700;
-            font-size: 20px;
+            font-size: 18px;
             font-style: italic;
             color: rgb(157, 157, 157);
             letter-spacing: 5px;
         }
         
         .welcome h1 {
-            text-align: center;
-            font-weight: 700;
             font-size: 60px;
             font-style: bold;
             color: rgb(44, 44, 44);
@@ -193,7 +188,7 @@
                 <tr>
                     <td style="padding: 0;">
                         <table width="100%" style="border-spacing: 0;background-color: #ffffff;" role="presentation">
-
+                            <hr>
                             <tr>
                                 <td valign="top" class="bg_white" style="padding: 1.5em 2.5em 0 2.5em;">
                                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -222,7 +217,9 @@
                                     <h1>
                                         WELCOME!
                                     </h1>
-
+                                    <h3>
+                                        You can now see our offer <br> and even gift tickets to your friends!
+                                    </h3>
                                 </td>
                             </tr>
                         </table>
@@ -560,7 +557,7 @@
                                                                 <tr>
                                                                     <td>
                                                                         <a class="btn-shopnow " href="https://example.com " target="_blank " style="font-size: 16px; font-weight: bold;text-decoration:none;;padding: 12px 25px;display:
-                                inline-block; ">Shop Now</a>
+                                inline-block; ">BUY TICKETS</a>
                                                                     </td>
 
                                                                 </tr>
@@ -592,7 +589,7 @@
                         <table width="100% " style="border-spacing: 0;background-color: #ffffff; " role="presentation ">
 
                             <tr>
-                                <td valign="top " class="bg_white " style="padding: 3em 2.5em 1em 2.5em; ">
+                                <td valign="top " class="bg_white " style="padding: 1em 2.5em 1em 2.5em; ">
                                     <table role="presentation " border="0 " cellpadding="0 " cellspacing="0 " width="100% ">
                                         <tr>
                                             <td class="btn-shoping " style="text-align: center; ">
@@ -612,18 +609,18 @@
 
                             <tr>
                                 <td class="stay-updated " width="60% " class="moto ">
-                                    <h3 style="font-weight:500;font-size:20px; padding-left:15%; ">Stay Updated On Our Shopping</h3>
+                                    <h3 style="font-weight:500;font-size:20px; padding-left:15%; ">Stay Updated </h3>
                                 </td>
                                 <td width="30% " class="social " style="text-align: center; padding-right:10%; ">
-                                    <ul class="navigation ">
+                                    <ul class="nav">
                                         <li>
-                                            <a href="https://example.com " target="_blank "><img src="images/004-twitter-logo.png " alt="twitter " style="width:25px "></a>
+                                            <a href="https://example.com " target="_blank "><img src="https://i.ibb.co/jT2YZYF/twitter.png" alt="twitter " style="width:25px "></a>
                                         </li>
                                         <li>
-                                            <a href="https://example.com " target="_blank "><img src="images/005-facebook.png " alt="facebook " style="width:25px "></a>
+                                            <a href="https://example.com " target="_blank "><img src="https://i.ibb.co/Tv4j8fd/facebook.png" alt="facebook " style="width:25px "></a>
                                         </li>
                                         <li>
-                                            <a href="https://example.com " target="_blank "><img src="images/006-instagram-logo.png " alt="instagram " style="width:25px "></a>
+                                            <a href="https://example.com " target="_blank "><img src="https://i.ibb.co/qDW7bJ3/instagram.png" alt="instagram " style="width:25px "></a>
                                         </li>
                                     </ul>
                                 </td>
@@ -640,9 +637,12 @@
                                     <h3 style="font-size:14px; font-weight:400;text-align:center;padding-bottom:10px; ">No longer want to recieve these email? You can <br><span><a href="https://example.com " target="_blank " style="color:#000; ">Unsubscribe here</a></span></h3>
                                 </td>
                             </tr>
+                            <hr>
                         </table>
                     </td>
+
                 </tr>
+
 
             </table>
         </div>
