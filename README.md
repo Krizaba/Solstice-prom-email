@@ -1,2 +1,2 @@
-# Solstice prom email
+# Solstice transactional email
  
